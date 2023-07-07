@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/1846/problem/B
 #include<bits/stdc++.h>
 using namespace std;
 bool checkWin(char b[][3], char s) {
