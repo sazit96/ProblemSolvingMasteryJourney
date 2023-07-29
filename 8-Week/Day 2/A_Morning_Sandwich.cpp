@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std; 
+int main ()
+{
+    int t; cin >> t;
+    while (t--)
+    {
+        int b,c,h; cin >> b >> c >> h;
+        cout << min(c+h+1,b) + min(c+h,b-1) << "\n";
+    }
+    return 0;
+}
