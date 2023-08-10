@@ -19,6 +19,7 @@ int main ()
             r--;
         }
         if(sum1==sum2) ans= sum1;
+        
     }
     cout << ans << "\n";
 }
