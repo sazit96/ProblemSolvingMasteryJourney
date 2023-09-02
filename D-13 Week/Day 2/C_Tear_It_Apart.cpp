@@ -16,7 +16,7 @@ int main ()
         int g_ans=0;
         for(int i=0;i<26;i++)
         {
-            for(int j=0;j<n;j++)
+            for(int j=0;j<n;j++) 
             {
                 if(p[j]==i || j== n-1) 
                 {
